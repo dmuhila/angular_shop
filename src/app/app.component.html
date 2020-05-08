@@ -1,0 +1,11 @@
+<app-header></app-header>
+<!-- was in app-header (select)="selected($event)" -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- <app-recipes *ngIf="choosen == 'recipe'"></app-recipes>
+      <app-shopping-list *ngIf="choosen == 'shopList'"></app-shopping-list> -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
